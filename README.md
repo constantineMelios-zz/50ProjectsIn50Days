@@ -7,3 +7,6 @@ Following along this course https://www.udemy.com/course/50-projects-50-days/
 I created some expanding cards with flexbox and CSS transitions. I also added keyboard access to tab the cards and expand them.
 https://codepen.io/ConstantineMelios/pen/jOMWzOQ
 
+### *Day 2 - Progress Steps*
+I created some progress steps with CSS transitions.
+https://codepen.io/ConstantineMelios/pen/jOMWzOQ
