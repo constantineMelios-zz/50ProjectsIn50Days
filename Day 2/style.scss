@@ -1,0 +1,103 @@
+:root {
+  --main-color: #0f94d2;
+  --inactive-color: #cfc9ce;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.title {
+  font-family: "Nerko One", cursive;
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.2));
+  font-size: 2.5rem;
+  color: var(--main-color);
+}
+
+.progress {
+  text-align: center;
+  filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.2));
+  .progress__container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 2.5em;
+    max-width: 100%;
+    width: 350px;
+    &:before {
+      content: "";
+      background-color: var(--inactive-color);
+      position: absolute;
+      top: calc(50% - 2px);
+      left: 0;
+      height: 4px;
+      width: 100%;
+      z-index: -1;
+    }
+    .progress__bar {
+      background-color: var(--main-color);
+      position: absolute;
+      top: calc(50% - 2px);
+      left: 0;
+      height: 4px;
+      width: 0%;
+      z-index: -1;
+      transition: 0.4s ease;
+    }
+    .circle {
+      background-color: white;
+      color: var(--inactive-color);
+      border-radius: 50px;
+      width: 1.8em;
+      height: 1.8em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      border: 2px solid var(--inactive-color);
+      &.active {
+        color: var(--main-color);
+        border: 2px solid var(--main-color);
+        font-weight: bold;
+        transition: color 0.4s ease, border 0.4s ease, font-weigth 0.4s ease;
+      }
+    }
+  }
+  .progress__button {
+    font-size: 1.25rem;
+    padding: 0.5em 1em;
+    background-color: var(--main-color);
+    border: 2px solid transparent;
+    color: white;
+    border-radius: 14px;
+    margin: 0 0.5em;
+    transition: border 0.4s ease, transform 0.4s ease;
+    cursor: pointer;
+    &:hover,
+    &:active {
+      transform: scale(0.98);
+    }
+    &:focus {
+      outline: 0;
+      border: 2px solid white;
+    }
+    &:disabled {
+      background: var(--inactive-color);
+      color: gray;
+      cursor: not-allowed;
+    }
+  }
+}
