@@ -10,3 +10,7 @@ https://codepen.io/ConstantineMelios/full/jOMWzOQ
 ### *Day 2 - Progress Steps*
 I created some progress steps with CSS transitions.
 https://codepen.io/ConstantineMelios/full/KKgzzqZ
+
+### *Day 3 - Rotating Navigation*
+I did not like that the circle disappeared when the screen was scrolled so I added a scroll bar to the content to fix that. It's not ideal but i like it more!
+https://codepen.io/ConstantineMelios/full/xxEVymo
