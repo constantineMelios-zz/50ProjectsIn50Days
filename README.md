@@ -14,3 +14,8 @@ https://codepen.io/ConstantineMelios/full/KKgzzqZ
 ### *Day 3 - Rotating Navigation*
 I did not like that the circle disappeared when the screen was scrolled so I added a scroll bar to the content to fix that. It's not ideal but i like it more!
 https://codepen.io/ConstantineMelios/full/xxEVymo
+
+### *Day 4 - Hidden Search*
+I smoothened the edges. I added functionality for Enter key the input, and close search when user clicks elsewhere on screen.
+https://codepen.io/ConstantineMelios/pen/NWRrWGy
+
