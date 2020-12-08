@@ -19,3 +19,6 @@ https://codepen.io/ConstantineMelios/full/xxEVymo
 I smoothened the edges. I added functionality for Enter key the input, and close search when user clicks elsewhere on screen.
 https://codepen.io/ConstantineMelios/pen/NWRrWGy
 
+### *Day 5 - Hidden Search*
+Blurry Sleepy Cat
+https://codepen.io/ConstantineMelios/pen/oNzLEKv
