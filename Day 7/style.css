@@ -1,0 +1,133 @@
+:root {
+  --left-color: #0e257f;
+  --right-color: #41872b;
+  --hover-width: 75%;
+  --other-width: 25%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #333;
+}
+.container .split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-transition: width 0.5s ease;
+  transition: width 0.5s ease;
+}
+.container .split .title {
+  font-size: 4rem;
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: calc(50% - 4rem);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  white-space: nowrap;
+  margin: 0;
+}
+@media (max-width: 800px) {
+  .container .split .title {
+    font-size: 2rem;
+  }
+}
+.container .split .button {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border: #fff solid 0.2rem;
+  font-size: 1.15rem;
+  font-weight: bold;
+  width: 15rem;
+  padding: 1.5rem;
+  text-align: center;
+  -webkit-transition: background-color 0.25s ease-in, border-color 0.25s ease-in;
+  transition: background-color 0.25s ease-in, border-color 0.25s ease-in;
+}
+@media (max-width: 800px) {
+  .container .split .button {
+    padding: 1.2rem;
+    width: 12rem;
+  }
+}
+.container .split.left {
+  left: 0;
+  background: url("https://i2.wp.com/www.gameover.gr/wp-content/uploads/2020/11/PS5_hero.jpg?w=1200&ssl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container .split.left .button:hover {
+  background-color: var(--left-color);
+  border-color: var(--left-color);
+}
+.container .split.left::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--left-color);
+  opacity: 0.4;
+}
+.container .split.right {
+  right: 0;
+  background: url("https://cdn.mos.cms.futurecdn.net/CZ2EwJ59bziohKBTZuRYRZ-970-80.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container .split.right .button:hover {
+  background-color: var(--right-color);
+  border-color: var(--right-color);
+}
+.container .split.right::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--right-color);
+  opacity: 0.4;
+}
+.container.hover-left .left {
+  width: var(--hover-width);
+}
+.container.hover-left .right {
+  width: var(--other-width);
+}
+.container.hover-right .left {
+  width: var(--other-width);
+}
+.container.hover-right .right {
+  width: var(--hover-width);
+}
+/*# sourceMappingURL=style.css.map */
