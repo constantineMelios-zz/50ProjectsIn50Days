@@ -19,6 +19,14 @@ https://codepen.io/ConstantineMelios/full/xxEVymo
 I smoothened the edges. I added functionality for Enter key the input, and close search when user clicks elsewhere on screen.
 https://codepen.io/ConstantineMelios/pen/NWRrWGy
 
-### *Day 5 - Scroll Animation*
+### *Day 5 - Blurry Loading*
+Blurry kitty...
+https://codepen.io/ConstantineMelios/full/oNzLEKv
+
+### *Day 6 - Scroll Animation*
 Refactor it to use IntersectionObserver Web API instead of innerHeight.
 https://codepen.io/ConstantineMelios/full/MWjjegG
+
+### *Day 7 - Split Landing Page*
+aka wishful thinking
+https://codepen.io/ConstantineMelios/pen/vYXXbZb
