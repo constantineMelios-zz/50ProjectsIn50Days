@@ -57,9 +57,25 @@ body {
   -webkit-transform: translateY(-2em);
           transform: translateY(-2em);
 }
+.form .form__control input:-webkit-autofill,
+.form .form__control input:-webkit-autofill:hover,
+.form .form__control input:-webkit-autofill:focus,
+.form .form__control textarea:-webkit-autofill,
+.form .form__control textarea:-webkit-autofill:hover,
+.form .form__control textarea:-webkit-autofill:focus,
+.form .form__control select:-webkit-autofill,
+.form .form__control select:-webkit-autofill:hover,
+.form .form__control select:-webkit-autofill:focus {
+  border: none;
+  border-bottom: 2px lightblue solid;
+  -webkit-text-fill-color: lightgrey;
+  -webkit-box-shadow: none;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
 .form .form__control label {
   position: absolute;
-  top: 0.79em;
+  top: 0.7em;
   left: 0;
 }
 .form .form__control label span {
