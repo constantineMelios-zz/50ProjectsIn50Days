@@ -1,0 +1,113 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  margin: 0;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: lightgray;
+}
+
+.form {
+  background-image: -webkit-gradient(linear, left top, right top, from(#6a11cb), to(#2575fc));
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  padding: 1.5em 2.5em;
+  border-radius: 5px;
+}
+.form .form__title {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+.form .form__control {
+  position: relative;
+  margin: 1em 0 2em;
+  width: 18em;
+}
+.form .form__control input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px lightgrey solid;
+  display: block;
+  width: 100%;
+  padding: 0.5em 0;
+  font-size: 1.2rem;
+  color: inherit;
+  -webkit-transition: border-color 0.25s ease;
+  transition: border-color 0.25s ease;
+}
+.form .form__control input:focus, .form .form__control input:valid {
+  outline: none;
+  border-bottom: 2px lightblue solid;
+}
+.form .form__control input:focus + label span, .form .form__control input:valid + label span {
+  color: lightblue;
+  -webkit-transform: translateY(-2em);
+          transform: translateY(-2em);
+}
+.form .form__control label {
+  position: absolute;
+  top: 0.79em;
+  left: 0;
+}
+.form .form__control label span {
+  display: inline-block;
+  font-size: 1.2em;
+  min-width: 5px;
+  -webkit-transition: color 0.25s ease, -webkit-transform 0.25s ease-out;
+  transition: color 0.25s ease, -webkit-transform 0.25s ease-out;
+  transition: color 0.25s ease, transform 0.25s ease-out;
+  transition: color 0.25s ease, transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+.form .form__button {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  background-color: lightblue;
+  padding: 1em;
+  font-family: inherit;
+  font-size: 1em;
+  border: 1px lightblue solid;
+  border-radius: 5px;
+  -webkit-transition: border-color 0.25s ease, -webkit-transform 0.25s ease;
+  transition: border-color 0.25s ease, -webkit-transform 0.25s ease;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+  transition: border-color 0.25s ease, transform 0.25s ease, -webkit-transform 0.25s ease;
+}
+.form .form__button:focus {
+  outline: none;
+  border: 1px black solid;
+  font-weight: bold;
+}
+.form .form__button:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+.form .form__text {
+  margin-top: 1.5em;
+  text-align: center;
+}
+.form .form__text a {
+  text-decoration: none;
+  color: lightblue;
+  -webkit-transition: color 0.25s ease;
+  transition: color 0.25s ease;
+}
+.form .form__text a:hover, .form .form__text a:active, .form .form__text a:focus {
+  color: white;
+  text-decoration: underline;
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
