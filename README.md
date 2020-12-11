@@ -30,3 +30,7 @@ https://codepen.io/ConstantineMelios/full/MWjjegG
 ### *Day 7 - Split Landing Page*
 aka wishful thinking
 https://codepen.io/ConstantineMelios/pen/vYXXbZb
+
+### *Day 8 - Wave Animation Form*
+A little wavy animation
+https://codepen.io/ConstantineMelios/pen/vYXyJqR
