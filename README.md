@@ -34,3 +34,7 @@ https://codepen.io/ConstantineMelios/pen/vYXXbZb
 ### *Day 8 - Wave Animation Form*
 A little wavy animation
 https://codepen.io/ConstantineMelios/pen/vYXyJqR
+
+### *Day 9 - Sound Board*
+A simple sound board
+https://codepen.io/ConstantineMelios/pen/YzGNKMB
