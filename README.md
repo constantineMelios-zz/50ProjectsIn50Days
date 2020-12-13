@@ -38,3 +38,7 @@ https://codepen.io/ConstantineMelios/pen/vYXyJqR
 ### *Day 9 - Sound Board*
 A simple sound board
 https://codepen.io/ConstantineMelios/pen/YzGNKMB
+
+### *Day 10 - Dad Joke Generator*
+Just an async/await Api call little program with Dad Jokes. What not to love!
+https://codepen.io/ConstantineMelios/pen/yLagMmm
