@@ -47,3 +47,7 @@ https://codepen.io/ConstantineMelios/pen/yLagMmm
 ### *Day 11 - Event Key Codes*
 A small project to start the week!
 https://codepen.io/ConstantineMelios/pen/vYXgQxw
+
+### *Day 12 - FAQ*
+I did not used Font Awesome library in the past. It is useful.
+https://codepen.io/ConstantineMelios/full/NWRpamQ 
