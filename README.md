@@ -51,3 +51,8 @@ https://codepen.io/ConstantineMelios/pen/vYXgQxw
 ### *Day 12 - FAQ*
 I did not used Font Awesome library in the past. It is useful.
 https://codepen.io/ConstantineMelios/full/NWRpamQ 
+
+
+### *Day 13 - Random Choice Picker*
+Random Choice
+https://codepen.io/ConstantineMelios/full/NWRpamQ
