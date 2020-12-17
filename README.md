@@ -56,3 +56,7 @@ https://codepen.io/ConstantineMelios/full/NWRpamQ
 ### *Day 13 - Random Choice Picker*
 Random Choice
 https://codepen.io/ConstantineMelios/full/NWRpamQ
+
+### *Day 14 - Animated Navigation*
+A simple transition animated nav
+https://codepen.io/ConstantineMelios/pen/mdrmKbR
