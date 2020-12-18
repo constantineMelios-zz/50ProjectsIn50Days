@@ -4,7 +4,7 @@ counters.forEach(counter => {
   counter.innerText = '0'
 
   const updateCounter = () => {
-    const target = +counter.getAttribute('data-target') //+ make JS count it as type: number
+    const target = +counter.dataset.target //+ make JS count it as type: number
     const currentText = +counter.innerText
     const step = Math.ceil(target / 100)
 
