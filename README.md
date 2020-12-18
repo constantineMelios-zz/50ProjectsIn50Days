@@ -61,6 +61,6 @@ https://codepen.io/ConstantineMelios/full/NWRpamQ
 A simple transition animated nav
 https://codepen.io/ConstantineMelios/pen/mdrmKbR
 
-### *Day 14 - Incrementing Counter*
+### *Day 15 - Incrementing Counter*
 Really liked the way every counter ends in the same time independent of the value.
-https://codepen.io/ConstantineMelios/pen/mdrmKbR
+https://codepen.io/ConstantineMelios/pen/PoGjEeN
