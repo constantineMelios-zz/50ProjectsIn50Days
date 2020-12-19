@@ -64,3 +64,7 @@ https://codepen.io/ConstantineMelios/pen/mdrmKbR
 ### *Day 15 - Incrementing Counter*
 Really liked the way every counter ends in the same time independent of the value.
 https://codepen.io/ConstantineMelios/pen/PoGjEeN
+
+### *Day 16 - Drinking Water*
+Really useful app, I am always forget to hydrate properly.
+https://codepen.io/ConstantineMelios/pen/GRjEaby
