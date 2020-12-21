@@ -72,3 +72,7 @@ https://codepen.io/ConstantineMelios/pen/GRjEaby
 ### *Day 17 - Movie App*
 I have done TV series before, movies now.
 https://codepen.io/ConstantineMelios/pen/xxELREN
+
+### *Day 18 - Background Slider*
+A background slider with a little transition.
+https://codepen.io/ConstantineMelios/pen/oNzeWOz
