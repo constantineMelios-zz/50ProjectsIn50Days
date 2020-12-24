@@ -76,3 +76,7 @@ https://codepen.io/ConstantineMelios/pen/xxELREN
 ### *Day 18 - Background Slider*
 A background slider with a little transition.
 https://codepen.io/ConstantineMelios/pen/oNzeWOz
+
+### *Day 19 - Theme Clock*
+As it is given project had two bugs stays at 0 for 2 seconds and spins like crazy. I fixed them!
+https://codepen.io/ConstantineMelios/pen/RwGZzKL
