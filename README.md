@@ -80,3 +80,7 @@ https://codepen.io/ConstantineMelios/pen/oNzeWOz
 ### *Day 19 - Theme Clock*
 As it is given project had two bugs stays at 0 for 2 seconds and spins like crazy. I fixed them!
 https://codepen.io/ConstantineMelios/pen/RwGZzKL
+
+### *Day 20 - Button Ripple Effect*
+Nice technique to create animated effects!
+https://codepen.io/ConstantineMelios/pen/ZEpXPvg
