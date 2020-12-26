@@ -88,3 +88,7 @@ https://codepen.io/ConstantineMelios/pen/ZEpXPvg
 ### *Day 21 - Drag N Drop*
 First time playing around with Drag N Drop. Really nice.
 https://codepen.io/ConstantineMelios/pen/GRjMbVG
+
+### *Day 22 - Drawing App*
+Suitable for kids drawing app!
+https://codepen.io/ConstantineMelios/pen/LYROeYy
