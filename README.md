@@ -95,4 +95,4 @@ https://codepen.io/ConstantineMelios/pen/LYROeYy
 
 ### *Day 23 - Loading Page*
 A simple cool loading animation.
-https://codepen.io/ConstantineMelios/pen/LYROeYy
+https://codepen.io/ConstantineMelios/pen/vYXWpxj
