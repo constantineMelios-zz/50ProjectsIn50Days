@@ -92,3 +92,7 @@ https://codepen.io/ConstantineMelios/pen/GRjMbVG
 ### *Day 22 - Drawing App*
 Suitable for kids drawing app!
 https://codepen.io/ConstantineMelios/pen/LYROeYy
+
+### *Day 23 - Loading Page*
+A simple cool loading animation.
+https://codepen.io/ConstantineMelios/pen/LYROeYy
