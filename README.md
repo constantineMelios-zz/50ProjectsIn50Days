@@ -100,3 +100,7 @@ https://codepen.io/ConstantineMelios/pen/vYXWpxj
 ### *Day 24 - Content Placeholder*
 A subtle animation for placeholder.
 https://codepen.io/ConstantineMelios/pen/PoGOLqW
+
+### *Day 25 - Sticky Navbar*
+An animated sticky navbar
+https://codepen.io/ConstantineMelios/pen/zYKpZxG
