@@ -96,3 +96,7 @@ https://codepen.io/ConstantineMelios/pen/LYROeYy
 ### *Day 23 - Loading Page*
 A simple cool loading animation.
 https://codepen.io/ConstantineMelios/pen/vYXWpxj
+
+### *Day 24 - Content Placeholder*
+A subtle animation for placeholder.
+https://codepen.io/ConstantineMelios/pen/PoGOLqW
