@@ -104,3 +104,7 @@ https://codepen.io/ConstantineMelios/pen/PoGOLqW
 ### *Day 25 - Sticky Navbar*
 An animated sticky navbar
 https://codepen.io/ConstantineMelios/pen/zYKpZxG
+
+### *Day 26 - Double Sliders*
+Double sliders with media queries for smaller screens!
+https://codepen.io/ConstantineMelios/pen/XWjVwMa
