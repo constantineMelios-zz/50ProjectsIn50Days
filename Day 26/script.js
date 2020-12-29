@@ -1,4 +1,5 @@
-const slider = document.querySelector('.slider')
+const container = document.querySelector('.slider')
+const slides = document.querySelectorAll('.slider-side')
 const rightSide = document.querySelector('.slider-side--right')
 const leftSide = document.querySelector('.slider-side--left')
 const slidesContent = document.querySelectorAll('.slider-content')
@@ -15,11 +16,15 @@ let activeSlideIndex = 0
 
 upBtn.addEventListener('click', () => changeSlide('up'))
 downBtn.addEventListener('click', () => changeSlide('down'))
+window.addEventListener('resize', () => changeSlide('resize'))
 
+function changeSlide(change) {
+  const windowWidth = window.innerWidth
+  const sliderHeight = container.clientHeight
 
-function changeSlide(direction) {
-  const sliderHeight = slider.clientHeight
-  if(direction === 'up') {
+  if(change === 'resize') {
+    slides.forEach(slide => slide.style.transition = 'none')
+  } else if(change === 'up') {
     activeSlideIndex++
     if(activeSlideIndex > slidesLength - 1) {
       activeSlideIndex = 0
@@ -31,6 +36,13 @@ function changeSlide(direction) {
     }
   }
 
-  rightSide.style.transform = `translateY(-${activeSlideIndex * sliderHeight}px)`
-  leftSide.style.transform = `translateY(${activeSlideIndex * sliderHeight}px)`
+  if(windowWidth > 1200) {
+    rightSide.style.transform = `translateY(-${activeSlideIndex * sliderHeight}px)`
+    leftSide.style.transform = `translateY(${activeSlideIndex * sliderHeight}px)`
+  } else {
+    rightSide.style.transform = `translateX(-${activeSlideIndex * windowWidth}px)`
+    leftSide.style.transform = `translateX(${activeSlideIndex * windowWidth}px)`
+  }
+  setTimeout(() => slides.forEach(slide => slide.style.transition = 'transform 0.25s ease-in-out'), 1)
 }
+
