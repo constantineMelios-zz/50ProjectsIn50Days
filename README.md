@@ -108,3 +108,7 @@ https://codepen.io/ConstantineMelios/pen/zYKpZxG
 ### *Day 26 - Double Sliders*
 Double sliders with media queries for smaller screens!
 https://codepen.io/ConstantineMelios/pen/XWjVwMa
+
+### *Day 27 - Toast Notification*
+Nice notifications for forms message handling.
+https://codepen.io/ConstantineMelios/pen/NWRydBw
