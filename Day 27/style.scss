@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  background-color: #00dbde;
+  background-image: linear-gradient(180deg, #00dbde 0%, #fc00ff 100%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.button {
+  background-color: white;
+  color: #f705ff;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 2px solid white;
+  cursor: pointer;
+  font-size: 1.05rem;
+  &:focus {
+    outline: none;
+    border-color: #00dbde;
+  }
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
+.toast {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  .toast-element {
+    background-color: white;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+}
