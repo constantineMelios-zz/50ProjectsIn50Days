@@ -1,0 +1,108 @@
+:root {
+  --main-color: #0d1117;
+  --secondary-color: #161b22;
+  --font-color: #c9d1d9;
+  --highlight-color: #388bfd;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  background-color: var(--main-color);
+  color: var(--font-color);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.form {
+  width: 100%;
+  max-width: 700px;
+  background-color: var(--secondary-color);
+  padding: 1em;
+  border-radius: 10px;
+  margin-bottom: 2em;
+  .form-input {
+    width: 50%;
+    display: block;
+    background-color: var(--main-color);
+    border: 1px solid var(--font-color);
+    color: inherit;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    transition: all 0.2s linear;
+    &:focus,
+    &:active {
+      outline: none;
+      width: 100%;
+      border-color: var(--highlight-color);
+    }
+    &::placeholder {
+      color: inherit;
+    }
+  }
+}
+
+.user {
+  max-width: 700px;
+  background-color: var(--secondary-color);
+  display: flex;
+  padding: 3em;
+  margin: 0 1.5em;
+  border-radius: 10px;
+  @media (max-width: 500px) {
+    flex-flow: column;
+    margin: 0;
+  }
+  .user-avatar {
+    border-radius: 50%;
+    border: 10px solid var(--main-color);
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+  }
+  .user-info {
+    margin-left: 2em;
+    .user-name,
+    .user-description {
+      margin-bottom: 0.5em;
+    }
+    .user-stats {
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+      max-width: 400px;
+      margin-bottom: 1em;
+      li {
+        display: flex;
+        align-items: center;
+        margin-right: 1em;
+        strong {
+          margin-left: 0.5em;
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+
+  .user-repoLink {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--highlight-color);
+    font-size: 0.9rem;
+    padding: 0.25em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    background-color: var(--main-color);
+    border-radius: 5px;
+  }
+}
