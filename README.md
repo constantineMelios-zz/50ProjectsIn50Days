@@ -117,3 +117,7 @@ https://codepen.io/ConstantineMelios/pen/NWRydBw
 ### *Day 28 - Toast Notification*
 Not really get why Axios is so popular! 
 https://codepen.io/ConstantineMelios/pen/jOMZxNp
+
+### *Day 29 - Double Click*
+Nice custom doubleclick event!
+https://codepen.io/ConstantineMelios/pen/zYKReVR
