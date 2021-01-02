@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Texturina&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Texturina", serif;
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  color: white;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
+  padding: 1em;
+  max-width: 600px;
+}
+
+.speed {
+  position: absolute;
+  bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  label {
+    padding-left: 15px;
+  }
+  input {
+    width: 50px;
+    padding: 5px;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: white;
+  }
+  #text {
+    width: 100%;
+  }
+}
