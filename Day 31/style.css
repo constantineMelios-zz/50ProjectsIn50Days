@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: "Mulish", sans-serif;
+  color: white;
+  height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+button {
+  border: none;
+  background-color: #6d68cb;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5em 0.75em;
+}
+
+.generator {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1.25em 1.5em;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
+          box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
+  width: 370px;
+  max-width: 100%;
+}
+.generator .generator-title {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.generator .generator-result {
+  background-color: rgba(0, 0, 0, 0.35);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  padding: 0.25em 0.5em;
+  width: 100%;
+  height: 50px;
+}
+.generator .generator-result .generator-password {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+}
+.generator .generator-result .generator-copy-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+}
+.generator .generator-setting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1em 0;
+}
+.generator .generator-setting input[type=number] {
+  width: 40px;
+  padding: 2px;
+}
+.generator .generator-generate-button {
+  display: block;
+  width: 100%;
+}
+
+.toast {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  max-width: 250px;
+  text-align: center;
+}
+.toast .toast-element {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */

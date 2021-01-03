@@ -121,3 +121,7 @@ https://codepen.io/ConstantineMelios/pen/jOMZxNp
 ### *Day 29 - Double Click*
 Nice custom doubleclick event!
 https://codepen.io/ConstantineMelios/pen/zYKReVR
+
+### *Day 30 - Auto Text Effect*
+A typical effect for land pages.
+https://codepen.io/ConstantineMelios/pen/ExgEgmY
