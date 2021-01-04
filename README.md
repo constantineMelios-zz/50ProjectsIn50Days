@@ -129,3 +129,8 @@ https://codepen.io/ConstantineMelios/pen/ExgEgmY
 ### *Day 31 - Password Generator*
 That was a great one as I never used the clipboard before, nice trick! Also used an older project, toast notifications to avoid using alert() Also randomized the string before return it.
 https://codepen.io/ConstantineMelios/details/ZEpxxEy
+
+
+### *Day 32 - Sliders*
+Let it slide...
+https://codepen.io/ConstantineMelios/pen/mdrLyqW
