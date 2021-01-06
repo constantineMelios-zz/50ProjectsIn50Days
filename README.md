@@ -137,3 +137,7 @@ https://codepen.io/ConstantineMelios/pen/mdrLyqW
 ### *Day 32 - Sliders*
 A notes app with local storage support
 https://codepen.io/ConstantineMelios/pen/rNMKOGz
+
+### *Day 32 - Sliders*
+A fun animated countdown
+https://codepen.io/ConstantineMelios/pen/jOMKWKz
