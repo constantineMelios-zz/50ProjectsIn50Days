@@ -130,7 +130,10 @@ https://codepen.io/ConstantineMelios/pen/ExgEgmY
 That was a great one as I never used the clipboard before, nice trick! Also used an older project, toast notifications to avoid using alert() Also randomized the string before return it.
 https://codepen.io/ConstantineMelios/details/ZEpxxEy
 
-
 ### *Day 32 - Sliders*
 Let it slide...
 https://codepen.io/ConstantineMelios/pen/mdrLyqW
+
+### *Day 32 - Sliders*
+A notes app with local storage support
+https://codepen.io/ConstantineMelios/pen/rNMKOGz
